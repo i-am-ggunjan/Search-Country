@@ -1,10 +1,10 @@
 import React from "react";
-import Search1 from "./components/Search1";
+import Search2 from "./components/Search2";
 
 const App = () => {
   return (
     <>
-      <Search1></Search1>
+      <Search2></Search2>
     </>
   );
 };
