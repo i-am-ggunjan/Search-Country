@@ -1,13 +1,18 @@
 import React from "react";
-// import Search2 from "./components/Search2";
 import Search3 from "./components/Search3";
 
-const App = () => {
-  return (
-    <>
-      <Search3></Search3>
-    </>
-  );
-};
+class App extends React.Component {
+  constructor() {
+    super();
+  }
+
+  render() {
+    return (
+      <>
+        <Search3></Search3>
+      </>
+    );
+  }
+}
 
 export default App;
